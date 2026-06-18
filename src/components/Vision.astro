@@ -1,0 +1,97 @@
+<section id="vision">
+  <p class="section-label reveal">What drives me</p>
+  <h2 class="section-title reveal">A set of <em>convictions.</em></h2>
+  <div class="vision-grid">
+    <div class="vision-card reveal">
+      <p class="card-index">Conviction I</p>
+      <h3 class="card-title">The backlog is never the strategy</h3>
+      <p class="card-body">
+        Features don't create value — outcomes do. I keep teams focused on the
+        problem worth solving, not just the next ticket in the queue.
+      </p>
+      <p class="card-accent">→ Outcome-driven roadmaps</p>
+    </div>
+    <div class="vision-card reveal">
+      <p class="card-index">Conviction II</p>
+      <h3 class="card-title">Code is a product decision</h3>
+      <p class="card-body">
+        Writing code makes me a better Product Owner. I understand the real cost
+        of technical debt, the weight of an edge case, and when to say no to
+        scope creep.
+      </p>
+      <p class="card-accent">→ Technically grounded ownership</p>
+    </div>
+    <div class="vision-card reveal">
+      <p class="card-index">Conviction III</p>
+      <h3 class="card-title">Clarity ships faster than cleverness</h3>
+      <p class="card-body">
+        A well-written user story beats a clever architecture every time. I
+        write specs developers can act on the same day — no back-and-forth, no
+        ambiguity.
+      </p>
+      <p class="card-accent">→ Precision over complexity</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* ── VISION ── */
+  #vision {
+    background: var(--surface);
+    padding: 15% 5%;
+  }
+  .vision-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--border);
+  }
+  .vision-card {
+    background: var(--surface);
+    padding: 40px 34px 36px;
+    position: relative;
+    transition: background 0.25s;
+  }
+  .vision-card:hover {
+    background: var(--surface2);
+  }
+  .vision-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 34px;
+    right: 34px;
+    height: 1px;
+    background: var(--border);
+  }
+  .card-index {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--violet-lt);
+    margin-bottom: 22px;
+    opacity: 0.7;
+  }
+  .card-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--white);
+    margin-bottom: 14px;
+    line-height: 1.3;
+  }
+  .card-body {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.78;
+  }
+  .card-accent {
+    margin-top: 26px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--lavender);
+    letter-spacing: 0.06em;
+    opacity: 0.8;
+  }
+</style>
