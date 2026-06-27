@@ -1,7 +1,7 @@
 ---
 title: Google Developer Student Clubs
 publishDate: 2019-12-01 00:00:00
-img: /assets/stock-2.jpg
+img: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*G_lmB0c8mFS6n50nUcanfA.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   We paired with a cutting-edge music API and a team of horticulturalists

@@ -1,7 +1,7 @@
 ---
 title: Alphaus
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: https://scontent.fmnl8-6.fna.fbcdn.net/v/t39.30808-6/294203779_379363960997470_3439170090225856486_n.png?stp=dst-png&cstp=mx375x375&ctp=s375x375&_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hir1x3F0tncQ7kNvwH4nPgD&_nc_oc=AdpU29dk41FCFggMQp5WwTAV8sHTFG3chMek6Awq2OkphigJV96BvEiBBr5AbMExO6A&_nc_zt=23&_nc_ht=scontent.fmnl8-6.fna&_nc_gid=I-nEmpFTxAQUvf2b-1x2IQ&_nc_ss=7b289&oh=00_Af-nhN-zs5dpnaxDv3p551DZsfFSmUMBoLpZWQmGZ21xuQ&oe=6A450060
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
