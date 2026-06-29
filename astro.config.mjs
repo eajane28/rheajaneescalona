@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from "astro/config";
-import awsAmplify from "astro-aws-amplify";
+import cloudflare from '@astrojs/cloudflare';
 
 import vue from "@astrojs/vue";
 
@@ -8,5 +8,5 @@ import vue from "@astrojs/vue";
 export default defineConfig({
   integrations: [vue()],
   output: "server",
-  adapter: awsAmplify(),
+  adapter: cloudflare(),
 });
