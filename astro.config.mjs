@@ -7,7 +7,6 @@ import vue from "@astrojs/vue";
 // https://astro.build/config
 export default defineConfig({
   integrations: [vue()],
-  trailingSlash: "always",
   output: "server",
   adapter: awsAmplify(),
 });
