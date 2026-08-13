@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import ContactCTA from '../components/ContactCTA.astro';
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogAstroComponentlogPreview from '../components/blogPreview.astro';
+
+const projects = (await getCollection('blog'));
+---
+
+<BaseLayout
+	title="Blogs | Rhea Jane Escalona"
+	description="Learn about Rhea Jane Escalona's thought process"
+>
+	<div class="stack gap-20" style="padding-top: 10%;">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Blog"
+				tagline="See how my thought process are laid out basically get a glimpse of how my brain works."
+				align="start"
+			/>
+			<Grid variant="offset">
+				{
+					projects.map((project) => (
+						<li>
+							<BlogAstroComponentlogPreview project={project} />
+						</li>
+					))
+				}
+			</Grid>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
