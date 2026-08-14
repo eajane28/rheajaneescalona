@@ -17,10 +17,6 @@ const { data, id } = Astro.props.project;
     loading="lazy"
     decoding="async"
   />
-  <div style="padding: 2%; color:var(--gray-0) ">
-    <p>{data.date}</p>
-    <p>{data.description}</p>
-  </div>
 </a>
 
 <style>
@@ -63,7 +59,7 @@ const { data, id } = Astro.props.project;
 
   @media (min-width: 50em) {
     .card {
-      height: fit-content;
+      height: 22rem;
       border-radius: 1.5rem;
     }
 
