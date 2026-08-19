@@ -9,7 +9,7 @@ const { data, id } = Astro.props.project;
 ---
 
 <!--  -->
-<a class="card">
+<a class="card" href={`/blog/${id}`}>
   <span class="title">{data.title}</span>
   <img
     src={data.img}
@@ -41,7 +41,7 @@ const { data, id } = Astro.props.project;
   }
 
   .title {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: 1 / 1 / 2 / 2 / 3 / 3;
     z-index: 1;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
